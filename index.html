@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="topbar">
+      <div class="topbar__container">
+        <ul class="topbar__infos">
+          <li>
+            <a href="tel:+336 20 00 00 00">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#phone"></use>
+              </svg>
+              06 20 00 00 00</a
+            >
+          </li>
+          <li>
+            <svg class="icon">
+              <use xlink:href="images/sprite.svg#print"></use>
+            </svg>
+            04 44 56 45 20
+          </li>
+          <li>
+            <a href="mailto:email@domain.fr">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#mail"></use>
+              </svg>
+              email@domain.fr
+            </a>
+          </li>
+        </ul>
+        <ul class="topbar__links">
+          <li>
+            <a href="#">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#edit"></use>
+              </svg>
+              S’inscrire
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#key"></use>
+              </svg>
+              Se connecter
+            </a>
+          </li>
+          <li class="topbar__lang"><a href="#">Fr</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <!-- Main start -->
+
+      <!-- Main end  -->
+    </main>
+
+    <footer>
+      <div>
+        <section>
+          <div>
+            <h2>S'inscrire à notre newsletter</h2>
+            <p>Restez à jour avec nos actualités et articles</p>
+          </div>
+          <div>
+            <input type="email" spellcheck="false" placeholder="Votre Email" />
+            <button>Inscrivez-vous</button>
+          </div>
+        </section>
+        <div>
+          <section>
+            <h2>
+              <svg class="icon">
+                <use xlink:href="images/sprite.svg#logo"></use>
+              </svg>
+            </h2>
+          </section>
+          <section>
+            <h3>Ressources</h3>
+            <ul>
+              <li><a href="#" title="Support">Support</a></li>
+              <li><a href="#" title="Sitemap">Sitemap</a></li>
+              <li><a href="#" title="Newsletter">Newsletter</a></li>
+              <li><a href="#" title="Help Centre">Help Centre</a></li>
+              <li><a href="#" title="Investor">Investor</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#" title="About Us">About Us</a></li>
+              <li><a href="#" title="Blog">Blog</a></li>
+              <li><a href="#" title="Careers">Careers</a></li>
+              <li><a href="#" title="Press">Press</a></li>
+              <li><a href="#" title="Contact">Contact</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#" title="Terms of Service">Terms of Service</a></li>
+              <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+              <li><a href="#" title="Cookies">Cookies</a></li>
+              <li><a href="#" title="Licenses">Licenses</a></li>
+            </ul>
+          </section>
+        </div>
+        <div>
+          <div>
+            <ul>
+              <li>
+                <a href="#" title="Instagram">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="LinkedIn">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Twitter">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="github">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#github"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <small
+            >&copy; wamavis Technologies, Inc. <span id="year"></span>, All
+            rights reserved
+          </small>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+  </body>
+</html>
