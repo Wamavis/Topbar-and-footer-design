@@ -3,6 +3,7 @@
   color: #fff;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
+  z-index: 1000;
 }
 .topbar a {
   color: inherit;
