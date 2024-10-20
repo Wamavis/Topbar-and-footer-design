@@ -18,7 +18,6 @@ footer {
 .footer-top {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
   align-items: center;
   gap: 3rem;
   padding: 1rem 0;
@@ -60,6 +59,7 @@ footer {
   font-weight: 600;
   border: var(--primary);
   outline-color: var(--primary);
+  padding: 1rem 0.75rem;
   transition: all 0.3s ease-in-out;
 }
 .footer-subscribe > button:hover {
